@@ -1,0 +1,96 @@
+.logo{
+    width:125px;
+    height:125px;
+    border-radius: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.5;
+}
+
+
+.button-general {
+    --background: #9000ff;
+    --background-hover: #900088;
+    --background-activated: #990099;
+    --background-focused: #990099;
+  
+    --color: white;
+  
+    --border-radius: 0;
+    --border-color: #fff;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: #900;
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
+
+
+.button-cancel {
+    --background: #8d0000;
+    --background-hover: #900000;
+    --background-activated: #b30505;
+    --background-focused: #b30505;
+  
+    --color: white;
+  
+    --border-radius: 0;
+    --border-color: #fff;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: deeppink;
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+}
+
+
+.button-alternativo {
+    --background: #ffffff;
+    --background-hover: #dddddd;
+    --background-activated: #eeeeee;
+    --background-focused: #eeeeee;
+
+    --color: #900088;
+
+    --border-radius: 0;
+    --border-color: #9000ff;
+    --border-style: solid;
+    --border-width: 1px;
+
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+    --ripple-color: #0f4e01;
+
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+}
+
+ion-toolbar{
+    background-color: var(--ion-color-mycolor);
+}
+
+.btn{ 
+    background-color: var(--ion-color-mycolor-shade);
+    color:white;
+    padding: 20px 30px 20px 30px ;
+    border-radius: 10px ;
+    font-size: 20px;
+}
+
+#container{
+    text-align: center;
+    position:absolute;
+    left: 20px;
+    right: 20px;
+    top: 50%;
+    transform: translateY( -50%);
+
+}
